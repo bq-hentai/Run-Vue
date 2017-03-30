@@ -79,21 +79,15 @@
 </template>
 
 <script>
-    import uiButton from '../components/base/button'
     import codeBlock from '../components/codeBlock'
     import codeButton from '!raw!../components/func/autoheight-textarea'
 
-    import backTop from '../components/func/backTop'
-    import goTop from '../components/func/go-top'
     import AutoheightTextarea from '../components/func/autoheight-textarea'
 
     export default {
         name: 'backTop',
         components: {
-            uiButton,
             codeBlock,
-            uiBackTop: backTop,
-            uiGoTop: goTop,
             AutoheightTextarea
         },
         data () {

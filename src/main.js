@@ -48,7 +48,8 @@ import FuncPicker from './func/picker'
 import FuncProgress from './func/progress'
 import FuncBackTop from './func/backTop'
 import FuncLazyLoad from './func/lazyLoad'
-import FuncAutoheightTextarea from './func/autoheight-textarea.vue'
+import FuncAutoheightTextarea from './func/autoheight-textarea'
+import FuncImagePreviewer from './func/image-previewer'
 
 Vue.use(VueRouter)
 
@@ -164,6 +165,9 @@ const routes = [{
     }, {
         path: 'autoheightTextarea',
         component: FuncAutoheightTextarea
+    }, {
+        path: 'imagePreviewer',
+        component: FuncImagePreviewer
     }]
 }, {
     path: '/plugins',

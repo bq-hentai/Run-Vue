@@ -150,7 +150,8 @@ export default {
                     {name: 'Progress', router: '/func/progress'},
                     {name: 'BackTop', router: '/func/backTop'},
                     {name: 'Lazy load', router: '/func/lazyLoad'},
-                    {name: 'AutoheightTextare', router: '/func/autoheightTextarea'}
+                    {name: 'AutoheightTextare', router: '/func/autoheightTextarea'},
+                    {name: 'ImagePreviewer', router: '/func/imagePreviewer'}
                 ]
             },
             abouUs: {

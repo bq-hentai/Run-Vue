@@ -24,6 +24,7 @@ import uiModal from './components/func/modal'
 import uiProgress from './components/func/progress'
 import uiBackTop from './components/func/backTop'
 import uiAutoheightTextare from './components/func/autoheight-textarea'
+import uiImagePreviewer from './components/func/image-previewer'
 
 const runvue = {
     uiIcon,
@@ -46,7 +47,8 @@ const runvue = {
     uiModal,
     uiProgress,
     uiBackTop,
-    uiAutoheightTextare
+    uiAutoheightTextare,
+    uiImagePreviewer
 }
 
 const install = function (Vue, opts = {}) {
