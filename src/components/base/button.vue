@@ -1,7 +1,7 @@
 <template>
     <button class="btn" :class="className" :disabled="disabled" :type="nativeType">
         <i v-if="icon" :class="iconName"></i>
-        <i v-if="loading"  class="icon-loading"></i>
+        <i v-if="loading" class="icon-loading"></i>
         <slot></slot>
     </button>
 </template>
