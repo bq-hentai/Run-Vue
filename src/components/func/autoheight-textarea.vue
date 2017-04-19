@@ -53,11 +53,13 @@
 
 <style lang="less">
     .elm {
-        width: calc(100% - 114px);
-        min-height: 120px;
+        width: 150px;
+        min-height: 50px;
         height: auto;
-        padding: 0 1em 0 1em;
-        background-color: #fff;
+        padding: 1em;
+        border: 1px solid #eee;
+        border-radius: 2px;
+        background-color: red;
         /* prevent focus explosion <_< */
         outline: none;
         float: right;
